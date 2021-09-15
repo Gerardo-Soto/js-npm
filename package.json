@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/Gerardo-Soto/js-npm/issues"
   },
-  "homepage": "https://github.com/Gerardo-Soto/js-npm#readme"
+  "homepage": "https://github.com/Gerardo-Soto/js-npm#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "date-fns": "^2.23.0"
+  },
+  "optionalDependencies": {
+    "eslint": "^7.32.0"
+  }
 }
