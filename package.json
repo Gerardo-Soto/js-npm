@@ -22,10 +22,12 @@
   },
   "homepage": "https://github.com/Gerardo-Soto/js-npm#readme",
   "dependencies": {
+    "json-server": "^0.15.0",
     "moment": "^2.29.1"
   },
   "devDependencies": {
-    "date-fns": "^2.23.0"
+    "date-fns": "^2.23.0",
+    "webpack": "^5.53.0"
   },
   "optionalDependencies": {
     "eslint": "^7.32.0"
