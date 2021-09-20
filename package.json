@@ -31,5 +31,9 @@
   },
   "optionalDependencies": {
     "eslint": "^7.32.0"
-  }
+  },
+  "bin": {
+    "random-name": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
