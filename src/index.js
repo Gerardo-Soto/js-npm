@@ -7,8 +7,9 @@ const names = [
 ];
 
 const getRandomName = () => {
-    const message = names[Math.floor(Math.random() * names.length)];
-    console.log('Welcome $(message)');
+    const name = names[Math.floor(Math.random() * names.length)];
+    //console.log('Welcome $(message)');
+    console.log(`Welcome ${name}`);
 };
 
 // Export function
